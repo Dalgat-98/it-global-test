@@ -1,0 +1,41 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-container__label {
+  display: flex;
+  gap: 4px;
+}
+
+.input-container__required-star {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143%;
+  color: #b21f00;
+}
+
+.input-container div label {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143%;
+  color: #2e3238;
+}
+
+.input-container input {
+  border: 1px solid #d5d8dd;
+  border-radius: 4px;
+  padding: 6px 8px;
+  height: 32px;
+
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #2e3238;
+
+  outline: none !important;
+}

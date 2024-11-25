@@ -1,0 +1,20 @@
+.user-tag-input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  border: 1px solid #99d5ff;
+  border-radius: 4px;
+  padding: 0 8px;
+
+  background: #e5f4ff;
+}
+.user-tag-input__name {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #2e3238;
+}
+.user-tag-input__button-delete {
+}

@@ -1,0 +1,42 @@
+.input-date {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+
+.input-date__title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143%;
+  color: #2e3238;
+}
+
+.input-date__input-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+  flex: 1;
+}
+
+.input-date__input-button input {
+  width: 100%;
+  border: 1px solid #d5d8dd;
+  border-radius: 4px;
+  padding: 6px 8px;
+  height: 32px;
+
+  outline: none !important;
+}
+
+.input-date__input-button input[type="date"]::-webkit-inner-spin-button,
+.input-date__input-button
+  input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none; /* Скрыть иконку календаря в Chrome */
+}
+
+.input-date__input-buttoninput[type="date"] {
+  -moz-appearance: textfield; /* Для Firefox */
+}
